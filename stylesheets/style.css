@@ -1,1 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Rowdies:wght@300;400;700&display=swap')
+
+.navbar {
+ background: #3f72af; 
+ font-family: "Rowdies", Sans-Serif;
+ padding-left: 35px;
+ padding-right: 35px;
+ padding-bottom: 20px;
+ padding-top: 20px;
+}
+
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+li a {
+  color: black;
+  font-size: 17px;
+  font-weight: 500;
+  margin-right: 20px;
+}
